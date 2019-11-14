@@ -4,8 +4,10 @@
 }
 .form-container{
     position: relative;
-    margin: auto;
+    margin:auto;
+    margin-top: 250px;
     padding: 4rem;
     text-align: center;
+    
     background-color:#f6b93b;
   }
