@@ -1,0 +1,11 @@
+.container{
+    margin-bottom: auto;
+    margin-top: auto;
+}
+.form-container{
+    position: relative;
+    margin: auto;
+    padding: 4rem;
+    text-align: center;
+    background-color:#f6b93b;
+  }
