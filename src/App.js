@@ -2,24 +2,19 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Button from "react-bootstrap/Button";
-
+import Form from "react-bootstrap/Form";
+import FormCheck from 'react-bootstrap/FormCheck';
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Button>Learn React</Button>
-        </a>
-      </header>
+      <Form>
+        <FormCheck
+        inline label="2" type="radio" label="Owner" id="role"/>
+
+        <FormCheck
+        inline label="2" type="radio" label="Manager" id="role"/>
+
+      </Form>
     </div>
   );
 }
